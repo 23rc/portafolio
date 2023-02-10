@@ -1,0 +1,21 @@
+body{
+    background-color: #2b3058;
+}
+.contenedorjava{
+    display: flex;
+
+}
+.contenedorjava img{
+    width: 850px;
+    height: 650px;
+}
+
+.text1{
+    padding-left: 15px;
+    font-size: xx-large;
+    color: white;
+    padding-top: 100px;
+}
+.contenedorjava a{
+    color: aliceblue;
+}

@@ -1,0 +1,141 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/estilosPortafolio.css"> <!-- Insertamos el css en el html principal-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  
+  </head>
+  <body>
+    <div class="etiqueta" id="inicio"> <!--Aqui coloque una etiqueta en la parte izquierda y le puse un id para saber donde regresar-->
+      <header>
+        <nav class="barra_navegacion">
+          <div class="marca">
+            <h2>Mi<span>Portafolio</span></h2>
+          </div>
+          <ul class="menu">                 <!--Menu de navegación por el html principal-->
+            <li><a href="#inicio"  >Inicio</a></li>
+            <li><a href="#yo">Quien Soy</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contactarme">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="info-content" >
+          <h1>Soy<span>Roberto</span> Carlos</h1>
+           <p>Soy programador, y actualmente estudio en la prestigiosa Universidad Mariano Galvez de Guatemala, con sede en solola,
+            con una trayectoria firme y con un buen promedio.
+           </p>
+           <a download href="/docs/CV Roberto Carlos Yoxon Cuj.pdf"><button class="download-cv">Descargar CV</button></a>
+        </div>
+        <img src="/img/yo.jpeg" alt="">
+      </main>
+    </div>
+    <a href="#inicio"><img src="/img/arriba.png" id="yo" alt=""></a>
+      <div class="yo">
+        <img src="/img/yo2.jpeg" alt="">
+        <div class="about-info" >
+          <h2>Acerca de mi</h2>
+          <div class="divider"></div>
+          <p>Mi nombre es "Roberto Carlos Yoxon Cuj, actualmente vivo en el municipio de San Lucas Tolimán, del Departamento de Sololá,
+            al día de hoy curso el octavo semestre de Ingeniería en Sistemas en la Universidad Mariano Galvez de Guatemala, con cede en Sololá
+            <br>
+            <br>
+            <br>
+            <p>CONOCIMIENTOS BÁSICOS EN PROGRAMACIÓN:</p>
+            <p>* Conocimientos en C#     </p>
+            <p>* Conocimientos en C++    </p>
+            <p>* Conocimientos en Java   </p>
+            <p>* Conocimiento en html    </p>
+            <p>* Conocimiento en class  </p>
+        </div>
+      </div>
+      <a href="#inicio"><img src="/img/arriba.png" id="yo" alt=""></a>
+      <div class="portfolio" id="portafolio">
+        <div class="portfolio-heading">
+          <h2>Mi Portafolio</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="container" >
+          <div class="card">
+            <div class="card__img">
+            </div>
+            <div class="card__title">
+              <h2>Proyecto en C++</h2>
+            </div>
+            <div class="button-content">
+              <button class="project-details-button download-cv">
+                <a href="/cemas ">Ver Proyecto</a>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+            </div>
+            <div class="card__title">
+              <h2>Proyecto en C#</h2>
+            </div>
+            <div class="button-content">
+              <button class="project-details-button download-cv">
+                <a href="/csharp">Ver Proyecto</a>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+            </div>
+            <div class="card__title">
+              <h2>Proyecto en Java</h2>
+            </div>
+            <div class="button-content">
+              <button class="project-details-button download-cv">
+                <a href="/java">Ver Proyecto</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__img">
+            </div>
+            <div class="card__title">
+             <center> <h2>JavaScript</h2></center>
+            </div>
+            <div class="button-content">
+              <button class="project-details-button download-cv">
+                <a href="/JavaScript">Ver Proyecto</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#inicio"><img src="/img/arriba.png" id="yo" alt=""></a>
+      <div class="contact-section"id="contactarme">
+        <div class="contact-heading">
+          <h2>Contáctame</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="container-contact">
+          <img src="/img/contactame3.gif" alt="">
+          <div class="contact-form">
+            <h4>Enviame un mensaje...</h4>
+            <form class="form-group" action="https://formsubmit.co/23rcroberto@gmail.com" method="POST">
+              <input type="text" name="nombre" placeholder="Nombre" id="nombre"/>
+              <input type="email" name="email" placeholder="Email" id="email"/>
+              <textarea name="message" placeholder="Escribe tu mensaje..."></textarea>
+              <button type="submit" class="btn-submit">ENVIAR MENSAJE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    
+      <footer class="footer"> 
+        <div class="footer-content">
+          <h2>Roberto Carlos</h2>
+          <h5>Estudiante-Programador</h5>
+        </div>
+      </footer>
+    </body>
+</html>
